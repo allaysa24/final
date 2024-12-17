@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/responsive.css">
+    <title>FORGET PASSWORD MCB</title>
+    
+</head>
+<body id="find">
+    <!-- == NAVBAR == -->
+    <nav class="navbar">
+        <h1 class="logo">MCB</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+        <img src="images/menubtn.png" class="menu-btn" alt="">
+    </nav>
+
+    <!-- == LOGIN MCBBBBBBBBBBB == --> 
+
+    <div class="forget-container">
+        <h1 class="forgot-title"></h1>
+        <!-- <a href="register.html" class="reg">Dont have an account yet?</a> -->
+        <div class="login-box">
+            <form class="login-form">
+                <p>Reset password</p>
+                <input type="text" placeholder="Username:" required class="loginputs">
+                <input type="email" placeholder="Email:" required class="loginputs">
+                <input type="text" placeholder="New password:" required class="loginputs">
+                <input type="text" placeholder="Confirm password:" required class="loginputs">
+                <!-- <a href="#">forgot password?</a> -->
+                <label for="button">
+                    <button class="logton"><a href="login.html">RESET NOW</a></button>
+                </label>
+
+            </form>
+        </div>
+    </div>    
+
+
+
+
+
+
+
+ 
+
+    <!-- == FOOOTEEEEERR == -->
+     
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <p>Contact <span>MCB</span></p>
+                <p> Phone : 0906 356 4205</p>
+                <p>Email : mrcoffeebeanmcb@gmail.com</p>
+                <p>Address :<a href="https://maps.app.goo.gl/Zhtx6qi46ZpKz4k37" target="_blank"> Brgy. 1 Laoag City, Ilocos Norte</a></p> 
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright © 2024 MCB |  All Rights Reserved</p>
+        <a href="webm.html" class="webm">WEB DEVELOPERS</a>
+        </div>
+        
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('hamburger')
+        })
+
+    </script>
+</body>
+</html>

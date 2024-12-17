@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/responsive.css">
+    <title>MCB WEB MASTERS</title>
+    
+</head>
+<body id="home">
+    <!-- == NAVBAR == -->
+    <nav class="navbar">
+        <h1 class="logo">MCB</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+        <img src="images/menubtn.png" class="menu-btn" alt="">
+    </nav>
+
+    
+
+    <!-- == SECOND PAGE == -->
+
+<section class="event-web">
+    <div class="event-title-web">
+        <h1>WEB DEVELOPERS</h1>
+        <div class="event-row-web">
+            <div class="event-col-web">
+                <img src="images/allaysa.png" alt="">
+                <h4 class="title-event-web">Allaysa Yvonne T. Ver</h4>
+                <p class="desc-event-web">CT - 2A</p>
+            </div>
+
+            <div class="event-col-web">
+                <img src="images/divineee.png" alt="">
+                <h4 class="title-event-web">Divine Grace Gantala</h4>
+                <p class="desc-event-web">CT - 2A</p>
+            </div>
+        </div> 
+    </div> 
+</section>
+
+
+     
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <p>Contact <span>MCB</span></p>
+                <p> Phone : 0906 356 4205</p>
+                <p>Email : mrcoffeebeanmcb@gmail.com</p>
+                <p>Address :<a href="https://maps.app.goo.gl/Zhtx6qi46ZpKz4k37" target="_blank"> Brgy. 1 Laoag City, Ilocos Norte</a></p> 
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright © 2024 MCB |  All Rights Reserved</p>
+        <a href="webm.html" class="webm">WEB DEVELOPERS</a>
+        </div>
+        
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('hamburger')
+        })
+
+    </script>
+</body>
+</html>
